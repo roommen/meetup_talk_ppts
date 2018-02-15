@@ -23,52 +23,51 @@ UDP port 4789 for overlay network traffic.
 *** Commands ***
 ****************
 1. Setting up manager:
-sudo docker swarm init --advertise-addr 10.142.0.6 --listen-addr 0.0.0.0:2377
+docker swarm init --advertise-addr <MANAGER_IP> --listen-addr 0.0.0.0:2377
 
 2. Joining the workers:
-docker swarm join --token <WORKER_TOKEN> 10.142.0.2:2377
+docker swarm join --token <SWARM_TOKEN> <MANAGER_IP>:2377
 
 3. Check for status:
 docker node ls
 
 4. Apply labels for easy id/deployment:
-sudo docker node update --label-add os=linux manager
-sudo docker node update --label-add os=windows worker1
-sudo docker node update --label-add os=windows workr2
+docker node update --label-add os=linux manager
+docker node update --label-add os=windows worker1
+docker node update --label-add os=windows workr2
 
 5. Verify the labels:
-sudo docker node inspect manager | grep 'os'
-sudo docker node inspect worker1 | grep 'os'
-sudo docker node inspect workr2 | grep 'os'
+docker node inspect manager | grep 'os'
+docker node inspect worker1 | grep 'os'
+docker node inspect workr2 | grep 'os'
 
 6. Check the N/W types:
-sudo docker network ls
+docker network ls
 
 7. Create an application overlay N/W:
-sudo docker network create -d overlay meetupnet
+docker network create -d overlay meetupnet
 
-8. Create a "db" service for Windows nodes:
-sudo docker service create --name db --network meetupnet --constraint 'node.labels.os == windows' --endpoint-mode dnsrr redis:3.2.100-nanoserver
+8. Create a "web" service for Linux nodes:
+docker service create --name web --network meetupnet --constraint 'node.labels.os == linux' --publish 80:80 radumatei/python-web
+docker service ls
 
-9. Create a "web" service for Linux nodes:
-sudo docker service create --name web --network meetupnet --constraint 'node.labels.os == linux' --publish 80:80 radumatei/python-web
-
-10. Scaling the "db" service:
-sudo docker service scale db=3
-sudo docker service ls
-sudo docker service ps db
-
-****** MAY NOT BE NECESSARY - UPDATE SLIDE ********
-11. Add a Linux worker node and promote to manager:
-docker swarm join --token <token_id> 10.140.0.3:2377
+9. Add a Linux worker node and promote to manager:
+docker swarm join --token <SWARM_TOKEN> <MANAGER_IP>:2377
 docker node update --label-add os=linux worker3
 docker node promote worker3
-****** MAY NOT BE NECESSARY - UPDATE SLIDE ********
 
-12. Scaling the "web" Service:
+10. Scaling the "web" Service:
 docker service scale web=3
 docker service ls
 docker service ps web
+
+11. Create a "db" service for Windows nodes:
+docker service create --name db --network meetupnet --constraint 'node.labels.os == windows' --endpoint-mode dnsrr redis:windowsservercore
+
+12. Scaling the "db" service:
+docker service scale db=3
+docker service ls
+docker service ps db
 
 13. Configure nginx.conf with IP addresses of Docker host machines
 
@@ -85,6 +84,6 @@ docker ps
 ***************************
 *** External References ***
 ***************************
-1. Up-to-date info/changes of Docker on Windows - https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-containers/swarm-mode?
+1. Getting Started with Swarm Mode - https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-containers/swarm-mode
 2. Use Docker Swarm to run a Windows+Linux containerized application - https://www.youtube.com/watch?v=ZfMV5JmkWCY
 3. Hybrid Docker Swarm cluster with multi-os deployment - http://collabnix.com/building-hybrid-docker-swarm-mode-cluster-on-google-cloud-platform/
