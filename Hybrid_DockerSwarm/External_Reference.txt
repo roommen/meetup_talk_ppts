@@ -1,0 +1,13 @@
+1. Installing Docker:
+https://store.docker.com/editions/enterprise/docker-ee-server-windows
+https://store.docker.com/editions/community/docker-ce-server-centos
+https://store.docker.com/editions/community/docker-ce-server-ubuntu
+
+2. Getting Started with Swarm Mode:
+https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-containers/swarm-mode
+
+3. Use Docker Swarm to run a Windows+Linux containerized application:
+https://www.youtube.com/watch?v=ZfMV5JmkWCY
+
+4. Hybrid Docker Swarm cluster with multi-os deployment:
+http://collabnix.com/building-hybrid-docker-swarm-mode-cluster-on-google-cloud-platform/
