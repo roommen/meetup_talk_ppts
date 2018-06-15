@@ -1,0 +1,11 @@
+*************************************************************************
+* Slides from Cloud Native Meetup #1 - Containers & Serverless Deepdive *
+*************************************************************************
+1. "Tracing and Profiling Microservices Applications Deployed on Kubernetes", Pradipta Kumar - https://www.slideshare.net/PradiptaBanerjee4/distributed-tracingmeetup9th-jun2018-101535686
+2. "Serverless Design with Fn Project", Siva Rama Krishna Chunduru, Oracle - https://www.slideshare.net/sivachunduru/serverless-design-with-fn-project
+3. "Powering up Alexa with AWS Lambda", Manoj Kumar, RedBus - https://www.slideshare.net/ManojKumar4626/aws-lambda-powering-up-alexa
+4. "Container Security", Sathyajith Bhat, Adobe - https://www.slideshare.net/CodeOps/securing-containers-sathyajit-bhat-adobe
+5. "Harnessing the Power of Managed Kubernetes Services", Manoj Ganapathi, CodeOps Technologies - https://www.slideshare.net/CodeOps/a-peek-into-aks-managed-kubernetes-as-a-service-on-azure
+6. "20 serverless patterns", Madhusudan Shekar, Amazon - https://www.slideshare.net/CodeOps/serverless-architectural-patterns-and-best-practices-madhu-shekar-aws
+7. "Monitoring & Alerting on Kubernetes using Prometheus", Chandresh Pancholi, Arvind Internet - https://www.slideshare.net/chandreshpancholi1/monitoring-on-kubernetes-using-prometheus
+
