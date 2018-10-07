@@ -1,5 +1,5 @@
 **********************
-*** Pre-requisites ***
+*** PRE-REQUISITES ***
 **********************
 1. Set up Windows 2016 password:
 gcloud beta compute --project <project_id> reset-windows-password <instance_name> --zone <zone_name>
@@ -7,12 +7,7 @@ ip_address: <ip_address>
 password: <defult_password_generated>
 username: <username>
 
-3. Installing Docker:
-https://store.docker.com/editions/enterprise/docker-ee-server-windows
-https://store.docker.com/editions/community/docker-ce-server-centos
-https://store.docker.com/editions/community/docker-ce-server-ubuntu
-
-3. Setup firewall rules in GCP (VPC Network --> Firewall Rules):
+2. Setup firewall rules in GCP (VPC Network --> Firewall Rules):
 TCP port 2376 for secure Docker client communication.
 TCP port 2377 for communication between the nodes of a Docker Swarm or cluster (only on manager nodes)
 TCP and UDP port 7946 for communication among nodes.
@@ -20,7 +15,7 @@ UDP port 4789 for overlay network traffic.
 
 
 ****************
-*** Commands ***
+*** COMMANDS ***
 ****************
 1. Setting up manager:
 docker swarm init --advertise-addr <MANAGER_IP> --listen-addr 0.0.0.0:2377
@@ -79,11 +74,3 @@ docker images
 15. Run the new nginx image:
 docker run -p 80:80 -d nginx:meetupdemo
 docker ps
-
-
-***************************
-*** External References ***
-***************************
-1. Getting Started with Swarm Mode - https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-containers/swarm-mode
-2. Use Docker Swarm to run a Windows+Linux containerized application - https://www.youtube.com/watch?v=ZfMV5JmkWCY
-3. Hybrid Docker Swarm cluster with multi-os deployment - http://collabnix.com/building-hybrid-docker-swarm-mode-cluster-on-google-cloud-platform/
