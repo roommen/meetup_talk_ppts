@@ -12,3 +12,4 @@
 9. "Identity federation with AWS Cognito", Kumaravel P, Altran - https://www.slideshare.net/AWSUsersGroupBengalu/identity-federation-with-aws-cognito
 10. "Conversational AI - Alexa in enterprise", Ilanchezhian Ganesamurthy, EVRY - https://www.slideshare.net/AWSUsersGroupBengalu/conversational-ai-alexa-in-enterprise
 11. "DynamoDB, RDS and IoT integration challenges and solutions", Suresh Kumar, Altran - https://www.slideshare.net/AWSUsersGroupBengalu/dynamodb-rds-and-iot-integration-challenges-and-solutions
+12. "Success story of migrating entire infrastructure from AWS Singapore to AWS Mumbai", Pranesh Vittal CG, Medlife.com - https://www.slideshare.net/PraneshVittal/success-story-of-migrating-entire-infrastructure-from-aws-singapore-to-aws-mumbai-for-medlifecom
