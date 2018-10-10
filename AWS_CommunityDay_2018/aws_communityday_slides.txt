@@ -13,3 +13,4 @@
 10. "Conversational AI - Alexa in enterprise", Ilanchezhian Ganesamurthy, EVRY - https://www.slideshare.net/AWSUsersGroupBengalu/conversational-ai-alexa-in-enterprise
 11. "DynamoDB, RDS and IoT integration challenges and solutions", Suresh Kumar, Altran - https://www.slideshare.net/AWSUsersGroupBengalu/dynamodb-rds-and-iot-integration-challenges-and-solutions
 12. "Success story of migrating entire infrastructure from AWS Singapore to AWS Mumbai", Pranesh Vittal CG, Medlife.com - https://www.slideshare.net/AWSUsersGroupBengalu/success-story-of-migrating-entire-infrastructure-from-aws-singapore-to-aws-mumbai
+13. "Advanced cost management strategies in AWS", Mani Chandrasekaran, Solution Architect, Amazon - https://www.slideshare.net/AWSUsersGroupBengalu/advanced-cost-management-strategies-in-aws
