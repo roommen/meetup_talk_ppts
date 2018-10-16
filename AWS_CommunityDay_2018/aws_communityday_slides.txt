@@ -4,10 +4,10 @@
 1. "Scaling hotstar.com for 10 million concurrent viewers", Gaurav Kambhoj, Hotstar - https://www.slideshare.net/AWSUsersGroupBengalu/scaling-hotstarcom-for-10-million-concurrent-viewers
 2. "Advanced serverless application architecture and design considerations", Dilip Kola, Tensult - https://www.slideshare.net/AWSUsersGroupBengalu/advanced-serverless-application-architecture-and-design-considerations-118586320
 3. "AWS serverless infrastructure - Integration testing", Santhosh Marimuthu, Advanced Engineer, Altran - https://www.slideshare.net/AWSUsersGroupBengalu/aws-serverless-infrastructure-integration-testing
-4. "Lessons learnt in CI/CD with AWS serverless architecture", Sriguru V, Altran Engineering Solutions - https://www.slideshare.net/AWSUsersGroupBengalu/lessons-learnt-in-cicd-with-aws-serverless-architecture
+4. "Lessons learnt in CI/CD with AWS serverless architecture", Sriguru V, Altran Engineering Solutions - https://www.slideshare.net/AWSUsersGroupBengalu/lessons-learnt-in-cicd-with-aws-serverless-architecture-119624226
 5. "Cost optimized logging using API Gateway, SQS and Elastic Search", Mitesh Sharma, Technology Lead, Kiwi - https://www.slideshare.net/AWSUsersGroupBengalu/cost-optimized-logging-using-api-gateway-sqs-and-elastic-search
 6. "Build, train and deploy your ML models with Amazon Sage Maker", Sangeetha Krishnan, Adobe - https://www.slideshare.net/AWSUsersGroupBengalu/build-train-and-deploy-your-ml-models-with-amazon-sage-maker
-7. "CI/CD using AWS developer tools", Bhuvaneswari Subramani and Vijaya Nirmala G - https://www.slideshare.net/AWSUsersGroupBengalu/lessons-learnt-in-cicd-with-aws-serverless-architecture-119133042
+7. "CI/CD using AWS developer tools", Bhuvaneswari Subramani and Vijaya Nirmala G - https://www.slideshare.net/AWSUsersGroupBengalu/cicd-using-aws-developer-tools-119625116
 8. "An ops discovery of serverless", Ninad Pundalik, Astro - https://www.slideshare.net/AWSUsersGroupBengalu/an-ops-discovery-of-serverless
 9. "Identity federation with AWS Cognito", Kumaravel P, Altran - https://www.slideshare.net/AWSUsersGroupBengalu/identity-federation-with-aws-cognito
 10. "Conversational AI - Alexa in enterprise", Ilanchezhian Ganesamurthy, EVRY - https://www.slideshare.net/AWSUsersGroupBengalu/conversational-ai-alexa-in-enterprise
@@ -17,3 +17,4 @@
 14. "An innocent's guide to ignoring best practices", Amit Garde, VP Engineering, Swiggy - https://www.slideshare.net/AWSUsersGroupBengalu/an-innocents-guide-to-ignoring-best-practices
 15. "Running a serverless ticketing platform for less than $2 a month", Srushith R, Head of Engineering, CodeOps Technologies - https://www.slideshare.net/AWSUsersGroupBengalu/running-a-serverless-ticketing-platform-for-less-than-2-a-month
 16. "AppSync in real world - pitfalls, unexpected benefits & lessons learnt", Adithya Reddy, Software Development Engineer,  Branch Financial - https://www.slideshare.net/AWSUsersGroupBengalu/appsync-in-real-world-pitfalls-unexpected-benefits-lessons-learnt
+17. "Architecture of scalable and resilient apps with GraphQL, Amazon RDS and AWS Lambda", Shahidh K Muhammed, Engineer, Hasura - https://www.slideshare.net/AWSUsersGroupBengalu/architecture-of-scalable-and-resilient-apps-with-graphql-amazon-rds-and-aws-lambda
