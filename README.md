@@ -6,3 +6,4 @@ Meetup discussions, talks and presentations
 3. CPP_GCP_Functions - How to execute C++ code as serverless
 4. AWS_CommunityDay_2018 - Consolidated slides from AWS Community Day, 2018
 5. Cloud_Native - Slides from the first Cloud Native event
+6. Slides/Resources/Links from AWS UG Bangalore Dec meetup - https://gist.github.com/roommen/1486a14da441d442a98d3688f072f44b
